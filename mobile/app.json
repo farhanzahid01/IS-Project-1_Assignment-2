@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Goal Driven",
+    "slug": "goal-driven-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0f172a",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.goaldriven.app"
+    },
+    "android": {
+      "package": "com.goaldriven.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-sqlite"]
+  }
+}
